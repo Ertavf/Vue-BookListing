@@ -14,18 +14,11 @@ export default {
     return {
       title: "All Books",
       books: [
-        {
-          title: "Book 1",
-          author: "Author 1"
-        },
-        {
-          title: "Book 1",
-          author: "Author 1"
-        },
-        {
-          title: "Book 1",
-          author: "Author 1"
-        }
+        [
+          { title: "Self-Reliance", author: "Ralph Waldo Emerson" },
+          { title: "American Gods", author: "Neil Gaiman" },
+          { title: "Amusing Ourselves to Death", author: "Neil Postman" }
+        ]
       ]
     };
   }
